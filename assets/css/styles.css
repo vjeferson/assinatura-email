@@ -1,0 +1,49 @@
+@import './variables.css';
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  background-color: #E5E5E5;
+}
+
+section {
+  width: 1024px;
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 5px #BFBFBF;
+}
+
+@media (max-width: 1024px) {
+  section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  h4,
+  p {
+    text-align: center;
+  }
+
+  .avatar {
+    margin-bottom: 0.5rem !important;
+  }
+}
